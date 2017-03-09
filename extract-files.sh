@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=natrium
+export DEVICE=capricorn
 export DEVICE_COMMON=msm8996-common
 export VENDOR=xiaomi
 

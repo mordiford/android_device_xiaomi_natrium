@@ -16,16 +16,16 @@
 # inherit from common msm8996-common
 -include device/xiaomi/msm8996-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/natrium
+DEVICE_PATH := device/xiaomi/capricorn
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := natrium
+TARGET_OTA_ASSERT_DEVICE := capricorn
 
 # Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+# TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # inherit from the proprietary version
--include vendor/xiaomi/natrium/BoardConfigVendor.mk
+-include vendor/xiaomi/capricorn/BoardConfigVendor.mk
